@@ -1,0 +1,16 @@
+# ===================================================
+# .gitignore untuk project TinyGPT_BanjirSumut
+# Hanya file .py dan corpus.txt yang akan di-push
+# ===================================================
+
+# Abaikan SEMUA file dulu
+*
+
+# Lalu izinkan file yang memang ingin di-push
+!*.py
+!corpus.txt
+!.gitignore
+!README.md
+
+# Kalau project ada di dalam subfolder, izinkan juga foldernya
+!*/
